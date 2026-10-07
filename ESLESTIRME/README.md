@@ -1,12 +1,21 @@
-# Eski bilgisayar adları — güncel görsel eşleştirmeleri
+# Eski isimlerle PanCafe kilit.png secimi — V4
 
-79 bilgisayarın mevcut BUSINESS / ELITE / VIP adları korunur. Her tam ad, donanım ve ekipmanına uygun tek bir görsele bağlanır.
+79 mevcut BUSINESS / ELITE / VIP bilgisayar adi, 21 guncel gorsele eslestirilir. Bilgisayar adlari degistirilmez.
 
-- [Tam eşleştirme listesi (TXT)](eski-isim-eslestirmeleri.txt)
-- [Donanım ve ekipman bilgileriyle liste (CSV)](eski-isim-eslestirmeleri.csv)
+[Tum dosyalari ve 21 gorseli indir](KAMPUS_KILIT_V4.zip).
 
-ELMAS: Valorant V1.3; ZÜMRÜT: CS:GO V1.1; PLATİN: PUBG V1.1; GOLD: League of Legends V1.1.
+1. ZIP icerigini ayni klasore cikarin. BAT, PS1, CSV ve 21 JPG yan yana kalmalidir. Onerilen klasor: `C:\Program Files (x86)\Pan Group\PanCafe Pro Client\upload`.
+2. Eski V3 acilis gorevini durdurun; V3 ve V4 ayni anda calismasin.
+3. Once `KAMPUS_GAME_ARENA_KILIT_V4.bat -Kontrol` calistirin. Bu mod gorseli ve eslesmeyi kontrol eder, kilit dosyasini degistirmez.
+4. `KAMPUS_GAME_ARENA_KILIT_V4.bat` calistirildiginda secilen JPG gercek PNG olarak donusturulur ve `C:\Program Files (x86)\Pan Group\PanCafe Pro Client\upload\kilit.png` atomik olarak degistirilir.
 
-PC-16/17/18 ve PC-34/35/36 ZÜMRÜT sınıfındadır. PC09 için RTX 5060 Ti esas alınır. PC70–PC72 kaynak listede bulunmadığı için eklenmemiştir.
+Eslesme yoksa, gorsel eksik/bozuksa, boyut uygun degilse, yazma yetkisi yoksa veya degistirme basarisizsa mevcut kilit.png korunur. Turuncu yedege gecis yoktur. kilit.jpg kullanilmaz. Mevcut kilit.png yoksa basarili islemde olusturulur.
 
-Bu dosyalar eşleştirme listesidir; açılış betiği veya kurulum değildir. Uygulanacak betikte isim eşleşmezse veya işlem hata verirse mevcut kilit.jpg korunmalıdır. Bilgisayar adları değiştirilmeyecektir.
+Program Files klasorune yazma yetkisi gereklidir. Otomatik baslatma Gorev Zamanlayici ile uygun hesap ve en yuksek ayricaliklarla yapilabilir. PanCafe resmi okumadan once islemin tamamlanmasi gerekir; kesin acilis sirasi Windows bilgisayarda ayrica kontrol edilmelidir. Bu paket otomatik gorev kurmaz.
+
+PowerShell 5.1 ve Windows System.Drawing kullanilir. BAT, ayni klasordeki PS1 yardimcisini cagirir. Windows bilgisayarda calistirma testi bu bulut ortaminda yapilmamistir; paket eslestirmeleri, kaynak gorseller ve ZIP butunlugu kontrol edilmistir.
+
+- [Eski isimler / gorseller TXT](eski-isim-eslestirmeleri.txt)
+- [Donanim ve ekipman CSV](eski-isim-eslestirmeleri.csv)
+
+ELMAS Valorant V1.3; ZUMRUT CS:GO V1.1; PLATIN PUBG V1.1; GOLD League of Legends V1.1.
