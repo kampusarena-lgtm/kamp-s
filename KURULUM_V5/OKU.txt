@@ -1,0 +1,17 @@
+﻿KAMPUS GAME ARENA - V5 ESKI KURULUM DUZENI
+
+1. ZIP dosyasini tamamen cikarin. Tum dosyalari ve 21 PNG gorseli PanCafe upload klasorune koyun:
+C:\Program Files (x86)\Pan Group\PanCafe Pro Client\upload
+Mevcut kilit.png dosyasini silmeyin. Pakette kilit.png yoktur.
+
+2. KURULUM_YONETICI_OLARAK_CALISTIR.bat dosyasina sag tiklayip Yonetici olarak calistir secin.
+
+3. Kurulum once mevcut bilgisayar adini ve gorseli kontrol eder. Kontrol basariliysa eski pakettekiyle ayni KampusGameArena_KilitEkrani gorevini gunceller. SYSTEM hesabi ile ONSTART tetikleyicisi, wscript.exe ve gizli VBS baslaticisi kullanilir. Onceki V4 gorevi bulunursa devre disi birakilir. Ilk gorsel degisikligi kurulum sirasinda da denenir.
+
+4. Sonuc kurulum-sonucu.txt dosyasina yazilir. Hata olursa bu dosyayi gonderin. Isim bulunamazsa veya gorsel/kopyalama/degistirme hatasi varsa mevcut kilit.png korunur.
+
+Dosyalar kurulumdan sonra ayni yerde kalmalidir. Gorev bu klasordeki VBS dosyasina baglidir. Bilgisayar adlari degistirilmez. 79 eski BUSINESS/ELITE/VIP ismi desteklenir.
+
+Gorseller gercek 1920x1080 PNG formatindadir. Secici BAT, PowerShell yardimcisi ile dosyayi dogrulayip atomik olarak degistirir. VBS, SYSTEM gorevinde yeniden runas istemeden gizli baslatir.
+
+Windows calistirma testi bulut ortaminda yapilmadi. Once bir bilgisayarda kurulum ve yeniden baslatma testi yapin. ONSTART gorevi ile PanCafe arasinda calisma sirasi garantisi yoktur; PanCafe eski gorseli gostermeye devam ederse acilis sirasi ayarlanmalidir.
