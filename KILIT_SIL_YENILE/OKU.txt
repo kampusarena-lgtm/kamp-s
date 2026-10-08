@@ -1,0 +1,9 @@
+﻿KILIT.PNG SIL VE YENILE GUNCELLEMESI
+
+Paket icindeki KAMPUS_GAME_ARENA_KILIT_V5.ps1 dosyasini mevcut upload klasorune kopyalayin ve ayni adli dosyayi degistirin. BAT, VBS, CSV ve gorseller ayni kalir. Yeniden kurulum gerekmez.
+
+Upload klasorundeki KAMPUS_GAME_ARENA_KILIT_V5.bat dosyasini yonetici olarak calistirin. Acilis gorevi sonraki acilista da yeni PS1 dosyasini kullanir.
+
+Isim ve kaynak PNG dogrulanir; yeni dosya once gecici olarak hazirlanir. Mevcut kilit.png varsa kilit_backup_<benzersiz-ad>.png yedegi alinir ve dogrulanir. Salt okunur ozelligi varsa kaldirilir; kilit.png silinir ve yeni dosya yerlestirilir. Yerlestirme basarisizsa yedekten geri yukleme denenir. Yedekler korunur; yeni gorseli kontrol ettikten sonra eski kilit_backup_ dosyalarini elle temizleyebilirsiniz.
+
+Dosya PanCafe tarafindan silinemez bicimde kilitliyse silme basarisiz olabilir. Yedekten geri yukleme de izin veya dosya kilidi nedeniyle basarisiz olabilir; bu durumda hata ciktisinda yedek yolu gorunur. Betik PanCafe'yi kapatmaz. Windows calistirma testi bu ortamda yapilmamistir.
