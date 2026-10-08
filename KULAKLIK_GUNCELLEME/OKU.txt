@@ -1,0 +1,11 @@
+﻿KULAKLIK ESLESTIRME GUNCELLEMESI
+
+ZIP icindeki CSV, TXT ve ZUMRUT_09_V1_0.png dosyalarini mevcut PanCafe upload klasorune kopyalayin. CSV ve TXT icin dosyayi degistir secin. Diger PNG gorselleri yerinde kalmali. BAT/PS1/VBS degisikligi veya yeniden kurulum gerekmez.
+
+Bilgisayar adlari son ONC dosyasindaki yeni adlar olarak korunur. Eski bilgisayar adi CSV sutun basligi mevcut secicinin uyumlulugu icin korunmustur; degerleri gunceldir. JPG yerine mevcut V5 otomasyonunun PNG dosyalari kullanilir.
+
+PC13,24,25,26,27,28,29 = HyperX Cloud 3
+PC14,31,33,34,35,36 = HyperX Cloud Alpha S
+PC31 icin yeni PNG bu pakettedir. Diger 12 masa mevcut dogru PNG gorsellerine baglanir.
+
+Upload klasorundeki KAMPUS_GAME_ARENA_KILIT_V5.bat dosyasini yonetici olarak calistirinca degisiklik uygulanir; sonraki acilislarda mevcut gorev ayni CSV dosyasini okur. Hata durumunda mevcut kilit.png korunur. Windows testi bu ortamda yapilmamistir.
