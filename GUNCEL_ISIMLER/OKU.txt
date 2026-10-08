@@ -1,0 +1,15 @@
+﻿GUNCEL ISIMLER - V5.1
+
+Bu paket yalnizca isim eslestirmelerini ve otomasyon dosyalarini gunceller. 21 PNG gorseli yeniden indirmeniz gerekmez.
+
+1. ZIP dosyasini ayri klasore cikarin.
+2. Icindeki CSV, BAT, PS1 ve VBS dosyalarini mevcut PanCafe upload klasorune kopyalayin; ayni adli dosyalari degistirin:
+C:\Program Files (x86)\Pan Group\PanCafe Pro Client\upload
+Mevcut 21 PNG gorsel yerinde kalmali. kilit.png dosyasini silmeyin.
+3. Upload klasorundeki KURULUM_YONETICI_OLARAK_CALISTIR.bat dosyasini yonetici olarak calistirin. Mevcut gorev ayni adla guncellenir; ilk kilit.png degisikligi de denenir.
+
+ONC dosyasindaki 79 tam bilgisayar adi kullanilir. COMPUTERNAME adinin Windows'ta da yeni adi gostermesi gerekir; yeniden adlandirma sonrasi yeniden baslatma gerekebilir. ONC dosyasi donanim listesi degildir; gorseller onceki onayli donanima gore korunmustur.
+
+PC11-ELMAS adi dosyada aynen alinmistir; bu bilgisayarin onayli donanimi icin ZUMRUT_01_V1_1.png secilir. Diger 78 bilgisayarin adindaki sinif mevcut gruplamayla uyumludur.
+
+Hata durumunda mevcut kilit.png korunur. Sonuc kurulum-sonucu.txt dosyasina yazilir. Windows'ta calistirma testi bulut ortaminda yapilmamistir.
