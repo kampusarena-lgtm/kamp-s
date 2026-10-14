@@ -1,0 +1,19 @@
+﻿KAMPUS GAME ARENA - FULL KURULUM
+
+Paket 79 guncel bilgisayar adi, duzeltilmis kulaklik eslestirmeleri ve 22 gorseli icerir. Onceki guncelleme paketleri gerekmez.
+
+1. ZIP'i tamamen cikarin. Icindeki tum dosyalari su klasore koyun:
+C:\Program Files (x86)\Pan Group\PanCafe Pro Client\upload
+Ayni adli otomasyon dosyalarini degistirin. Mevcut kilit.png dosyasini silmeyin.
+
+2. KURULUM_YONETICI_OLARAK_CALISTIR.bat dosyasina sag tiklayin, Yonetici olarak calistir secin.
+
+3. Kurulum mevcut Windows bilgisayar adini ve gorseli kontrol eder. KampusGameArena_KilitEkrani SYSTEM acilis gorevini kurar/gunceller. Onceki KampusArena_Kilit_V4 gorevi varsa devre disi birakilir. Ilk gorsel degisikligi kurulum sirasinda da denenir. Sonuc kurulum-sonucu.txt dosyasina yazilir.
+
+4. Her acilista VBS dosyasi secici BAT'i gizli baslatir. Secilen JPEG/PNG gercek 1920x1080 PNG'ye donusturulur. Yeni PNG dogrulanmadan mevcut kilit.png silinmez. Eski dosya kilit_backup_ ile yedeklenir, silinir ve yenisi konur. Yerlestirme basarisizsa yedekten geri yukleme denenir. Yedekler korunur.
+
+Dosyalar upload klasorunde kalmalidir. Isim eslesmezse veya kaynak gorsel hazirlanamazsa mevcut kilit.png degismez. PanCafe dosyayi kilitliyorsa silme/geri yukleme basarisiz olabilir. Betik PanCafe'yi kapatmaz.
+
+PC11-ELMAS adi ONC dosyasindaki gibi korunur; donanimina uygun ZUMRUT gorseli secilir. Kulaklik duzeltmeleri 13 masaya uygulanmistir; PC31 icin RTX 3080 Ti + Cloud Alpha S gorseli dahildir.
+
+Once bir bilgisayarda deneyin. Windows calistirma testi bulut ortaminda yapilmamistir. PanCafe ile acilis sirasi garantisi yoktur; ilk yeniden baslatmada gorseli kontrol edin.
